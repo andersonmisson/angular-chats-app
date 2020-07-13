@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 
 import { ChartsModule } from 'ng2-charts';
 import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
+import { MyDoughnutChartComponent } from './my-doughnut-chart/my-doughnut-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyBarChartComponent
+    MyBarChartComponent,
+    MyDoughnutChartComponent
   ],
   imports: [
     BrowserModule,
